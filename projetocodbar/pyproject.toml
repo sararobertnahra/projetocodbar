@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "projetocodbar"
+version = "0.1.0"
+description = ""
+authors = ["Sara Nahra <dev-saranahra@outlook.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.101.0"
+uvicorn = "^0.23.2"
+opencv-python = "^4.8.0.76"
+
+[tool.poetry.scripts]
+start = "projetocodbar.__init__:start"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
